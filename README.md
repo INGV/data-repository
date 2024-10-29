@@ -3,7 +3,7 @@
 
 # INGV Open Data Repository
 
-Welcome to INGV Open Data repository instance source.
+The aim of this project is to design and implement a **data repository** in order to equip the Institute with a tool that, together with the [Open Data Portal](https://data.ingv.it), is able to provide INGV researchers and technologists with a complete tool for the _publication_ and _traceability_ of research data, in line with the principles of the [FAIRness](https://www.go-fair.org/fair-principles/) of scientific research and [institutional data policy](https://data.ingv.it/docs/principles/).
 
 ## Getting started
 
