@@ -1,0 +1,23 @@
+@ingvblue: #06c;
+
+/* Override @primaryColor to override the site-wide accents. */
+@primaryColor: @ingvblue;
+
+/* Header */
+@navbarBackgroundColor: @ingvblue;
+@navbarBackgroundImage: none;
+@searchButtonColor: #001a33;
+
+/* Footer */
+@footerLightColor: @ingvblue;
+@footerDarkColor: #001a33;
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+/* This is the single variable that controls them all */
+@emSize   : 16px;
+
+/* The size of page text  */
+@fontSize : 16px;

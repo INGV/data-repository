@@ -1,0 +1,4 @@
+// login/signup
+html.cover-page {
+  background-color: transparent;
+}
