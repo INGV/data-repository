@@ -1,0 +1,29 @@
+{%- extends "invenio_app_rdm/footer.html" %}
+
+{%- block footer_top_left %}
+<div class="ui grid">
+  <div class="rdm-footer five wide tablet four wide computer column">
+    <h2 class="ui small header">Repository</h2>
+    <p><a href="/help/search">Search Guide</a> <i class="icon chevron right"></i></p>
+    <p><a href="https://data.ingv.it/en">Data Registry </a><i class="icon external alternate"></i></p>
+    <p><a href="https://data.ingv.it/docs/principles/">Data Policy </a><i class="icon external alternate"></i></p>
+  </div>
+  <div class="rdm-footer five wide tablet four wide computer column">
+    <h2 class="ui small header">Contribute</h2>
+    <p><a href="https://github.com/ingv/data-repository" target="_blank">GitHub </a><i class="icon github"></i></p>
+  </div>
+{%- endblock footer_top_left %}
+
+{%- block footer_top_right %}
+<h2 class="ui inverted tiny header">{{_('Badges')}}</h2>
+<ul class="ui horizontal link list">
+  {% for item in config.DATAREP_BADGES %}
+      <li>
+        <a href="{{ item.url }}" aria-label="{{ item.alt }}" target="_blank">
+          <img src="{{ url_for('static', filename=item.name) }}"
+            alt="{{ _(item.alt) }}" class="ui small image"/>
+        </a>
+      </li>
+  {% endfor %}
+</ul>
+{%- endblock footer_top_right %}
