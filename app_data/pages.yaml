@@ -1,0 +1,5 @@
+# list of pages:
+- url: /about
+  title: About INGV Data repository
+  description: About page of INGV Open Data Repository
+  template: about.html
