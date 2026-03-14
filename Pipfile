@@ -13,6 +13,8 @@ data-repository = {editable = true, path="./site"}
 uwsgi = ">=2.0"
 uwsgitop = ">=0.11"
 uwsgi-tools = ">=1.1.1"
+passlib = "==1.7.4"
+setuptools = "<82"
 
 [requires]
 python_version = "3.9"
